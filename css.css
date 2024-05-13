@@ -1,0 +1,157 @@
+
+
+
+
+*{
+    margin: 0;
+}
+header {
+    background-color:#8B5FBF;
+    color: aliceblue;
+    padding: 40px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    justify-content: space-between; 
+          
+}
+#tele {
+    font-size: 30px;
+    position: absolute;
+    right: 170px;
+}
+header h1 {
+    margin: 0; 
+}
+.MFOTO {
+
+    position: absolute; /* Establecer posición absoluta */
+            top: 6%; 
+            transform: translateY(-50%); 
+            left: 45%; 
+            max-width: 7%; 
+            height: auto; 
+   
+}
+
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+
+header h1:first-child {
+    margin: 0; 
+}
+
+header h1:last-child {
+    margin: 0; 
+}
+
+
+
+main {
+text-align: center;
+max-width: 800px;
+    margin: 20px auto;
+       padding: 20px;
+          background-color: rgb(255, 255, 255);
+             box-shadow: 0 0 35px #8B5FBF; 
+    }
+
+ul {
+background:transparent;
+text-shadow: 0cap;   
+font-size: 32px;      
+display: flex;
+margin-bottom: 80px;
+list-style-type: none;
+
+        
+        
+
+}
+ul li {
+margin-top: 10px;
+margin-inline-start: 13%;
+}
+#menu{
+    transition-duration: 600ms;
+}
+#menu:hover{
+    translate: 10px 10px;
+}
+
+
+body {
+ background-color: rgb(240, 248, 255);
+}
+
+li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+
+
+    main {
+        display: inline-block; 
+        vertical-align: top; 
+        width: 15%; 
+        height: 400px;
+        background-color: rgb(240, 248, 255);  
+        padding: 40px; 
+        margin-inline-start: 10%;
+        border: 0px solid #d6d6d6; 
+        border-radius: 8px; 
+    }
+    
+    main:last-child {
+        margin-right: 0; 
+    }
+
+  .footer {
+
+    background-color: #8B5FBF ;
+    color: aliceblue;
+    padding: 40px;
+    margin-top: 100px;
+  }
+
+.formas{
+    margin: 35px 30px;
+
+}
+.formas i {
+    font-size: 60px;
+    color: rgb(255, 254, 254);
+}
+
+.formas {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+  
+body{
+    background: linear-gradient(#e1d1ec,#E9E4ED)no-repeat center fixed;
+}
+a {
+    color:aliceblue ;
+}
+
+@media (max-width: 1080px) {
+    body{
+        background-color: rgb(223, 78, 199);
+        
+    }
+    
+    
+    }
+
+
+
+    
+    
+
+
+   
+ 
